@@ -3,35 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NexusShop · Warm Brown & White</title>
+  <title>NexusShop · Dark Blue & White</title>
 
   <!-- Google Fonts & Font Awesome -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   <style>
-    /* ========== WARM BROWN & WHITE PALETTE ========== */
+    /* ========== DARK BLUE & WHITE PALETTE ========== */
     :root {
       --bg: #ffffff;
-      --bg-elevated: #fefcf8;
+      --bg-elevated: #f7f9fc;
       --bg-card: #ffffff;
-      --bg-hover: #faf6f0;
-      --primary: #3b2a1e;           /* rich coffee brown for text */
-      --primary-light: #5e4b3c;
-      --accent: #a67c5b;            /* warm brown accent */
-      --accent-light: rgba(166, 124, 91, 0.10);
-      --accent-dark: #7a5d44;
-      --muted: #7d6b5c;
-      --muted-light: #b1a18f;
-      --surface: #f7f2ea;
-      --border: rgba(90, 70, 50, 0.08);
-      --border-light: rgba(90, 70, 50, 0.12);
-      --success: #7a8b6e;           /* muted sage for success */
-      --warning: #d9a066;           /* warm gold */
+      --bg-hover: #f0f4fa;
+      --primary: #0a1f44;           /* deep navy for contrast */
+      --primary-light: #1e3a6e;
+      --accent: #1d4ed8;            /* rich royal blue */
+      --accent-light: rgba(29, 78, 216, 0.08);
+      --accent-dark: #1e40af;
+      --muted: #5b6b8a;
+      --muted-light: #8a9ab8;
+      --surface: #edf2f9;
+      --border: rgba(10, 31, 68, 0.06);
+      --border-light: rgba(10, 31, 68, 0.10);
+      --success: #0d9488;           /* teal for success */
+      --warning: #d97706;           /* amber for badges */
       --radius: 20px;
       --radius-sm: 12px;
-      --shadow: 0 8px 28px rgba(70, 50, 30, 0.05), 0 2px 8px rgba(70, 50, 30, 0.02);
-      --shadow-hover: 0 24px 48px rgba(70, 50, 30, 0.08), 0 8px 20px rgba(166, 124, 91, 0.12);
+      --shadow: 0 8px 28px rgba(10, 31, 68, 0.05), 0 2px 8px rgba(10, 31, 68, 0.02);
+      --shadow-hover: 0 24px 48px rgba(10, 31, 68, 0.07), 0 8px 20px rgba(29, 78, 216, 0.10);
       --transition: 0.3s cubic-bezier(0.2, 0, 0, 1);
       --container: 1280px;
     }
@@ -84,19 +84,19 @@
       transition: var(--transition);
       border: 2px solid transparent;
       letter-spacing: -0.01em;
-      box-shadow: 0 2px 6px rgba(70, 50, 30, 0.04);
+      box-shadow: 0 2px 6px rgba(10, 31, 68, 0.03);
     }
     .btn-primary {
       background: var(--accent);
       color: #fff;
       border-color: var(--accent);
-      box-shadow: 0 8px 18px -6px rgba(166, 124, 91, 0.4);
+      box-shadow: 0 8px 18px -6px rgba(29, 78, 216, 0.4);
     }
     .btn-primary:hover {
       background: var(--accent-dark);
       border-color: var(--accent-dark);
       transform: translateY(-3px);
-      box-shadow: 0 16px 28px -8px rgba(166, 124, 91, 0.5);
+      box-shadow: 0 16px 28px -8px rgba(29, 78, 216, 0.5);
     }
     .btn-secondary {
       background: var(--primary);
@@ -104,19 +104,19 @@
       border-color: var(--primary);
     }
     .btn-secondary:hover {
-      background: #2a1f16;
+      background: #0d2a5c;
       transform: translateY(-3px);
-      box-shadow: 0 14px 24px -8px rgba(59, 42, 30, 0.3);
+      box-shadow: 0 14px 24px -8px rgba(10, 31, 68, 0.3);
     }
     .btn-ghost {
-      background: rgba(166, 124, 91, 0.06);
+      background: rgba(10, 31, 68, 0.03);
       color: var(--primary);
-      border-color: rgba(166, 124, 91, 0.15);
+      border-color: rgba(10, 31, 68, 0.08);
       backdrop-filter: blur(8px);
     }
     .btn-ghost:hover {
-      background: rgba(166, 124, 91, 0.12);
-      border-color: rgba(166, 124, 91, 0.25);
+      background: rgba(10, 31, 68, 0.07);
+      border-color: rgba(10, 31, 68, 0.15);
       transform: translateY(-3px);
     }
 
@@ -180,7 +180,7 @@
     nav.main-nav li a.active {
       background: var(--bg-hover);
       color: var(--primary);
-      box-shadow: 0 4px 12px rgba(70, 50, 30, 0.04);
+      box-shadow: 0 4px 12px rgba(10, 31, 68, 0.04);
     }
 
     .header-actions {
@@ -220,7 +220,7 @@
       display: grid;
       place-items: center;
       border: 2.5px solid var(--bg);
-      box-shadow: 0 2px 8px rgba(166, 124, 91, 0.4);
+      box-shadow: 0 2px 8px rgba(29, 78, 216, 0.4);
     }
 
     .search-wrap {
@@ -237,7 +237,7 @@
     .search-wrap:focus-within {
       border-color: var(--accent);
       background: var(--bg-hover);
-      box-shadow: 0 0 0 5px rgba(166, 124, 91, 0.10);
+      box-shadow: 0 0 0 5px rgba(29, 78, 216, 0.10);
     }
     .search-wrap input {
       border: 0;
@@ -256,7 +256,7 @@
       transition: var(--transition);
       border-radius: 50%;
     }
-    .search-wrap button:hover { color: var(--accent); background: rgba(166, 124, 91, 0.10); }
+    .search-wrap button:hover { color: var(--accent); background: rgba(29, 78, 216, 0.10); }
 
     .mobile-toggle {
       display: none;
@@ -275,7 +275,7 @@
       background: var(--bg-elevated);
       border-top: 1px solid var(--border);
       padding: 18px 0 24px;
-      box-shadow: 0 20px 30px -10px rgba(70, 50, 30, 0.06);
+      box-shadow: 0 20px 30px -10px rgba(10, 31, 68, 0.06);
     }
     #mobileMenu ul {
       list-style: none;
@@ -296,7 +296,7 @@
     #mobileMenu ul li a i { width: 24px; color: var(--accent); font-size: 18px; }
     #mobileMenu ul li a:hover { background: var(--accent-light); }
 
-    /* ========== HERO (warm brown & white) ========== */
+    /* ========== HERO (dark blue & white) ========== */
     .hero {
       position: relative;
       display: flex;
@@ -306,8 +306,8 @@
       border-radius: 40px;
       overflow: hidden;
       margin: 24px 28px 0;
-      background: linear-gradient(135deg, #ffffff 0%, #fdfaf6 50%, #f3ede4 100%);
-      box-shadow: 0 40px 70px -24px rgba(70, 50, 30, 0.08), inset 0 1px 0 rgba(255,255,255,0.8);
+      background: linear-gradient(135deg, #ffffff 0%, #f7faff 50%, #e8eef9 100%);
+      box-shadow: 0 40px 70px -24px rgba(10, 31, 68, 0.08), inset 0 1px 0 rgba(255,255,255,0.8);
       border: 1px solid var(--border);
     }
     .hero::before {
@@ -315,7 +315,7 @@
       position: absolute;
       inset: 0;
       background: url('https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
-      opacity: 0.04;
+      opacity: 0.03;
       mix-blend-mode: luminosity;
       z-index: 0;
     }
@@ -326,7 +326,7 @@
       right: -10%;
       width: 600px;
       height: 600px;
-      background: radial-gradient(circle, rgba(166,124,91,0.08) 0%, transparent 70%);
+      background: radial-gradient(circle, rgba(29, 78, 216, 0.08) 0%, transparent 70%);
       border-radius: 50%;
       z-index: 0;
       pointer-events: none;
@@ -336,14 +336,14 @@
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      background: rgba(166, 124, 91, 0.10);
+      background: rgba(29, 78, 216, 0.08);
       color: var(--accent-dark);
       padding: 8px 24px;
       border-radius: 60px;
       font-weight: 600;
       font-size: 14px;
       backdrop-filter: blur(6px);
-      border: 1px solid rgba(166, 124, 91, 0.20);
+      border: 1px solid rgba(29, 78, 216, 0.18);
       margin-bottom: 24px;
     }
     .hero h1 {
@@ -405,7 +405,7 @@
       padding: 10px 22px;
       border-radius: 40px;
       background: var(--accent-light);
-      border: 1px solid rgba(166, 124, 91, 0.15);
+      border: 1px solid rgba(29, 78, 216, 0.12);
     }
     .section-header .view-all:hover {
       gap: 12px;
@@ -447,13 +447,13 @@
       font-size: 28px;
       color: var(--accent-dark);
       transition: var(--transition);
-      border: 1px solid rgba(166, 124, 91, 0.10);
+      border: 1px solid rgba(29, 78, 216, 0.08);
     }
     .cat-card:hover .icon-wrap {
       background: var(--accent);
       color: #fff;
       transform: scale(0.94) rotate(3deg);
-      box-shadow: 0 10px 22px -8px rgba(166, 124, 91, 0.4);
+      box-shadow: 0 10px 22px -8px rgba(29, 78, 216, 0.4);
     }
     .cat-card h4 {
       font-size: 16px;
@@ -513,12 +513,12 @@
       font-weight: 800;
       letter-spacing: 0.3px;
       text-transform: uppercase;
-      box-shadow: 0 6px 16px rgba(166, 124, 91, 0.4);
+      box-shadow: 0 6px 16px rgba(29, 78, 216, 0.4);
     }
     .product-card .badge.sale {
       background: var(--warning);
       color: var(--primary);
-      box-shadow: 0 6px 16px rgba(217, 160, 102, 0.3);
+      box-shadow: 0 6px 16px rgba(217, 119, 6, 0.3);
     }
     .product-card .wish-btn {
       position: absolute;
@@ -560,7 +560,7 @@
       padding: 5px 14px;
       border-radius: 30px;
       align-self: flex-start;
-      border: 1px solid rgba(166, 124, 91, 0.10);
+      border: 1px solid rgba(29, 78, 216, 0.08);
     }
     .product-card .body h5 {
       font-size: 17px;
@@ -626,7 +626,7 @@
       border-color: var(--accent);
       color: #fff;
       transform: scale(1.02);
-      box-shadow: 0 10px 22px -8px rgba(166, 124, 91, 0.4);
+      box-shadow: 0 10px 22px -8px rgba(29, 78, 216, 0.4);
     }
     .product-card .footer .add-btn.added {
       background: var(--success);
@@ -641,7 +641,7 @@
       background: var(--bg-card);
       border-radius: 32px;
       overflow: hidden;
-      box-shadow: 0 30px 60px -20px rgba(70, 50, 30, 0.06);
+      box-shadow: 0 30px 60px -20px rgba(10, 31, 68, 0.06);
       border: 1px solid var(--border);
     }
     .deal-wrap .deal-img {
@@ -676,7 +676,7 @@
       letter-spacing: 0.5px;
       align-self: flex-start;
       margin-bottom: 20px;
-      box-shadow: 0 8px 18px -6px rgba(166, 124, 91, 0.4);
+      box-shadow: 0 8px 18px -6px rgba(29, 78, 216, 0.4);
     }
     .deal-wrap .deal-content h3 {
       font-size: 38px;
@@ -728,7 +728,7 @@
       border-radius: 18px;
       min-width: 84px;
       text-align: center;
-      box-shadow: 0 12px 22px -10px rgba(70, 50, 30, 0.06);
+      box-shadow: 0 12px 22px -10px rgba(10, 31, 68, 0.06);
       border: 1px solid var(--border);
     }
     .timer-box .num {
@@ -801,7 +801,7 @@
       object-fit: cover;
       background: var(--surface);
       border: 2.5px solid var(--accent-light);
-      box-shadow: 0 4px 14px rgba(70, 50, 30, 0.05);
+      box-shadow: 0 4px 14px rgba(10, 31, 68, 0.05);
     }
     .testimonial-card .author .name {
       font-weight: 700;
@@ -817,7 +817,7 @@
 
     /* ========== NEWSLETTER ========== */
     .newsletter-wrap {
-      background: linear-gradient(135deg, #ffffff 0%, #fdfaf6 50%, #f3ede4 100%);
+      background: linear-gradient(135deg, #ffffff 0%, #f7faff 50%, #e8eef9 100%);
       border-radius: 40px;
       padding: 60px 68px;
       color: var(--primary);
@@ -826,7 +826,7 @@
       justify-content: space-between;
       gap: 44px;
       flex-wrap: wrap;
-      box-shadow: 0 40px 60px -24px rgba(70, 50, 30, 0.05);
+      box-shadow: 0 40px 60px -24px rgba(10, 31, 68, 0.05);
       border: 1px solid var(--border);
       position: relative;
       overflow: hidden;
@@ -838,7 +838,7 @@
       left: -10%;
       width: 500px;
       height: 500px;
-      background: radial-gradient(circle, rgba(166,124,91,0.06) 0%, transparent 70%);
+      background: radial-gradient(circle, rgba(29, 78, 216, 0.05) 0%, transparent 70%);
       border-radius: 50%;
       pointer-events: none;
     }
@@ -891,7 +891,7 @@
       border-color: var(--accent);
       padding: 19px 42px;
       font-weight: 700;
-      box-shadow: 0 14px 26px -8px rgba(166, 124, 91, 0.4);
+      box-shadow: 0 14px 26px -8px rgba(29, 78, 216, 0.4);
     }
     .newsletter-wrap form .btn:hover {
       background: var(--accent-dark);
@@ -950,7 +950,7 @@
       background: var(--accent);
       color: #fff;
       transform: translateY(-4px);
-      box-shadow: 0 10px 22px -8px rgba(166, 124, 91, 0.4);
+      box-shadow: 0 10px 22px -8px rgba(29, 78, 216, 0.4);
       border-color: var(--accent);
     }
     .footer-grid .col h5 {
@@ -1290,7 +1290,7 @@
   <!-- ===== SCRIPT ===== -->
   <script>
     // ============================================================
-    // DATA (warm brown edition)
+    // DATA (dark blue edition)
     // ============================================================
     const CATEGORIES = [
       { id: 'phones', name: 'Smartphones', icon: 'fa-mobile-alt', count: 24 },
@@ -1583,7 +1583,7 @@
       const email = newsletterEmail.value.trim();
       if (!email || !email.includes('@')) {
         newsletterMsg.textContent = 'Please enter a valid email address.';
-        newsletterMsg.style.color = '#b91c1c';
+        newsletterMsg.style.color = '#dc2626';
         newsletterMsg.style.display = 'block';
         return;
       }
@@ -1617,7 +1617,7 @@
       }
     });
 
-    console.log('🚀 NexusShop — warm brown edition loaded.');
+    console.log('🚀 NexusShop — dark blue edition loaded.');
   </script>
 
 </body>
